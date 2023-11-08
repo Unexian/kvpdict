@@ -43,7 +43,7 @@ class KVPDict<Keys, Values> {
 
 //% color="#2ab38a" weight=50 advanced=true icon="\uf0ce"
 namespace kvpdict {
-    //% block="KVPdict" weight=100
+    //% block="empty KVPdict" weight=100
     //% blockSetVariable=myDict
     //% hidden
     export function createKvpDict(): KVPDict<any, any> {
