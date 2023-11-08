@@ -53,6 +53,7 @@ namespace kvpdict {
     //% block="Set $dict value at key $key to $value" weight=75
     //% dict.defl=myDict
     //% dict.shadow=variables_get
+    //% key.defl="key"
     //% hidden
     export function setKey(dict: KVPDict<any, any>, key: any, value: any) {
         dict.set(key, value)
@@ -60,6 +61,7 @@ namespace kvpdict {
     //% block="Get $dict value at key $key" weight=50
     //% dict.defl=myDict
     //% dict.shadow=variables_get
+    //% key.defl="key"
     //% hidden
     export function getKey(dict: KVPDict<any, any>, key: any) {
         return dict.get(key)
@@ -67,6 +69,7 @@ namespace kvpdict {
     //% block="Remove $dict value at key $key" weight=25
     //% dict.defl=myDict
     //% dict.shadow=variables_get
+    //% key.defl="key"
     //% hidden
     export function removeKey(dict: KVPDict<any, any>, key: any) {
         dict.remove(key)
